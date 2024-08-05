@@ -156,3 +156,8 @@ python manage.py collectstatic
 python manage.py runserver
 ```
 8. Access the website using your server's IP address or domain name, and the port number of the server if necessary. For example, if you're running the development server on port 8000, you can access the website at `http://your-server-ip:8000/`.
+
+9. Create and adminuser
+```python
+python manage.py createsuperuser
+```

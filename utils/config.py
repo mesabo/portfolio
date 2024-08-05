@@ -26,8 +26,9 @@ class Config:
     DB_USER = os.getenv("DB_USER")
     DB_PASSWORD = os.getenv("DB_PASSWORD")
     DB_PORT = os.getenv("DB_PORT", 5432)
-    FLASK_RUN_PORT = os.getenv("RUN_PORT", 5000)
-    
+    RUN_PORT = os.getenv("RUN_PORT", 5000)
+    DEBUG = os.getenv("DEBUG", False)
+
     EMAIL_BACKEND = os.getenv("EMAIL_BACKEND")
     EMAIL_HOST =os.getenv("EMAIL_HOST")
     EMAIL_HOST_USER =os.getenv("EMAIL_HOST_USER")

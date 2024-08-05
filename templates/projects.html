@@ -4,94 +4,119 @@
 {% block title %}Projects{% endblock title %}
 
 {% block content %}
-<div class='bg-gray-800 text-white p-5 md:py-8 md:px-20 lg:px-40 xl:px-60'>
-  <p style="font-family: Poppins-Bold" class='text-4xl font-extrabold py-5 text-center md:text-start'>Projects Completed</p>
-      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
-          <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="https://cdn.jsdelivr.net/gh/hostmind/host/static/password-generator.png" alt="image">
-          <div>
-            <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">Passsave - Python Password Manager<p>
-            <p class='text-justify my-3'>A simple yet effective password manager application built using Python, Tkinter and SQL, allowing you to store, manage, and access your passwords with ease.</p>
-            <ul class='mb-3'>
-              <li>&#9989; Developed a password manager using Python and SQL</li>
-              <li>&#9989;  Performs CRUD operations to work.</li>
-              <li>&#9989;  Modern UI design and simple-to-use desktop software.
-              </li>
-            </ul>
-            <span class='text-lg font-bold'>Technologies used</span><br>
-            <div class='flex space-x-2 my-3'>
-            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-python"></i> Python</span>
-            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-server"></i> SQL</span>
+    <div class='bg-gray-800 text-white p-5 md:py-8 md:px-20 lg:px-40 xl:px-60'>
+        <p style="font-family: Poppins-Bold" class='text-4xl font-extrabold py-5 text-center md:text-start'>Projects Completed</p>
+
+        <!-- Project 1: JICA Sholar Summer Internship -->
+        <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+            <img class="post-img-url rounded-lg object-cover w-80 h-48" src="{% static 'images/llm.png' %}" alt="JICA Sholar Summer Internship">
+            <div>
+                <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">Summer Internship - Japan AI Consulting<p>
+                <p class='text-justify my-3'>Internship at <a href="https://j-aic.com" target="_blank"
+                                                              class='text-blue-500 hover:text-blue-300'>Japan AI
+                Consulting</a>, focusing on Log processing, AI-driven tools (Generative AI) and data privacy reports.</p>
+                <ul class='mb-3'>
+                    <li>&#9989; Developed log data processing tools with FastAPI (BackEnd) and Flask (FrontEnd).</li>
+                    <li>&#9989; Integrated LLM models with intuitive UIs using Gradio.</li>
+                    <li>&#9989; Produced insightful reports on data privacy and cloud services in Uganda.</li>
+                </ul>
+                <span class='text-lg font-bold'>Technologies used</span><br>
+                <div class='flex space-x-2 my-3'>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-code"></i> Google Colab</span>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-bolt"></i> FastAPI</span>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-python"></i> Flask</span>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-database"></i> PostgreSQL</span>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-robot"></i> Gradio</span>
+                </div>
             </div>
-          </div>
-      </div>
-      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
-          <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="https://cdn.jsdelivr.net/gh/hostmind/host/static/web-blog-ui.png" alt="image">
-          <div>
-            <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">Web Blog UI - Blog UI Design</p>
-            <p class='text-justify my-3'>Web Blog UI is a user interface design project that utilizes HTML, CSS and JavaScript to create a visually appealing and functional blog website. The project was created with an emphasis on user-centered design principles, ensuring easy navigation and visually pleasing design.</p>
-            <ul class='mb-3'>
-              <li>&#9989; Modern UI Blog Design</li>
-              <li>&#9989; Dark/Light/System Mode Switcher</li>
-              <li>&#9989; Responsive Design</li>
-            </ul>
-            <span class='text-lg font-bold'>Technologies used</span><br>
-            <div class='flex space-x-2 my-3'>
-            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-html5"></i> HTML</span>
-            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-css3-alt"></i> CSS</span>
-            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-square-js"></i> Js</span>
+        </div>
+
+        <!-- Project 2: Deep Learning Models for Energy Forecasting -->
+        <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+            <img class="post-img-url rounded-lg object-cover w-80 h-48" src="{% static 'images/ML.png' %}" alt="Deep Learning Models for Energy Forecasting">
+            <div>
+                <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">Deep Learning Models for Energy Forecasting<p>
+                <p class='text-justify my-3'>Led development of Deep Learning models for energy forecasting using CNN-Attention Mechanism-LSTM, resulting in a paper accepted at IEEE VTC2024-Fall.</p>
+                <ul class='mb-3'>
+                    <li>&#9989; Developed CNN-Attention Mechanism-LSTM models for accurate energy forecasting.</li>
+                    <li>&#9989; Achieved high precision in energy demand predictions.</li>
+                    <li>&#9989; Published research at <a href="https://events.vtsociety.org/vtc2024-fall/" target="_blank" class='text-blue-500 hover:text-blue-300'>IEEE VTC2024-Fall</a> (From October).</li>
+                </ul>
+                <span class='text-lg font-bold'>Technologies used</span><br>
+                <div class='flex space-x-2 my-3'>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-python"></i> Python</span>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-brain"></i> PyTorch</span>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-bolt"></i> Numpy</span>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-chart-line"></i> Matplotlib</span>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-database"></i> Pandas</span>
+                </div>
+                <a href="https://github.com/mesabo/TimeSeriesForecasting.git" target="_blank" class='text-blue-500 hover:text-blue-300'>Access it on github</a>
             </div>
-            <div class='flex space-x-4 my-3'>
-              <a href='https://github.com/Messou-makes/blog-design'  target = '_blank' class=''><button class='bg-gray-800 p-2 px-4 rounded-[6px] hover:bg-slate-700 outline hover:outline-none outline-slate-700 transition delay-75 ease-in-out my-3'><i class="bi bi-github"></i> Github</button></a>
-              <a href='https://web-blog-ui.netlify.app/' target = '_blank'><button class='bg-blue-600 p-2 px-4 rounded-[6px] hover:bg-gray-800 hover:outline hover:outline-blue-600 transition delay-75 ease-in-out my-3'>Demo <i class="bi bi-box-arrow-up-right"></i></button></a>              
+        </div>
+
+        <!-- Project 3: EKKOU App Development -->
+        <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+            <img class="post-img-url rounded-lg object-cover w-80 h-48" src="{% static 'images/ekkou-app.png' %}" alt="EKKOU App Development">
+            <div>
+                <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">EKKOU App Development<p>
+                <p class='text-justify my-3'>Part-time development of the EKKOU app using agile methodologies to deliver scalable solutions.</p>
+                <ul class='mb-3'>
+                    <li>&#9989; Developed scalable solutions using agile methodologies.</li>
+                    <li>&#9989; Contributed to the prototyping and frontend development.</li>
+                    <li>&#9989; Ensured high-quality user experience.</li>
+                </ul>
+                <span class='text-lg font-bold'>Technologies used</span><br>
+                <div class='flex space-x-2 my-3'>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-react"></i> Flutter BLoC</span>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-figma"></i> Figma</span>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-sitemap"></i> Clean Architecture</span>
+                </div>
+                <a href="https://ekkou.ci" target="_blank" class='text-blue-500 hover:text-blue-300'>Access it online</a>
             </div>
-          </div>
-      </div>
-      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
-          <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="https://cdn.jsdelivr.net/gh/hostmind/host/static/tools-website.png" alt="image">
-          <div>
-            <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">Web Tools - Multiple Tools Website</p>
-            <p class='text-justify my-3'>Web Tools is a comprehensive website that offers a variety of useful tools such as a PNG to WebP converter, word counter, password generator, and video downloaders. The website was created using HTML, Tailwind CSS, and JavaScript, and has a modern and user-friendly design.</p>
-            <ul class='mb-3'>
-              <li>&#9989; Wide range of tools.</li>
-              <li>&#9989; Responsive Design</li>
-              <li>&#9989; Dark Mode Supported</li>
-            </ul>
-            <span class='text-lg font-bold'>Technologies used</span><br>
-            <div class='flex space-x-2 my-3'>
-              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-html5"></i> HTML</span>
-              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-css3-alt"></i> Tailwind</span>
-              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-square-js"></i> Js</span>
+        </div>
+
+        <!-- Project 4: Commercial Utility Applications -->
+        <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+            <img class="post-img-url rounded-lg object-cover w-80 h-48" src="{% static 'images/traccar.png' %}" alt="Commercial Utility Applications">
+            <div>
+                <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">Commercial Utility Applications<p>
+                <p class='text-justify my-3'>Spearheaded the improvement of commercial utility applications, driving innovation in backend systems using IoT devices for vehicles at Casys Technologies.</p>
+                <ul class='mb-3'>
+                    <li>&#9989; Developed backend systems using IoT devices.</li>
+                    <li>&#9989; Innovated commercial utility applications.</li>
+                    <li>&#9989; Improved system efficiency and reliability.</li>
+                </ul>
+                <span class='text-lg font-bold'>Technologies used</span><br>
+                <div class='flex space-x-2 my-3'>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-java"></i> Java</span>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-microchip"></i> IoT</span>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-server"></i> SQL</span>
+                </div>
             </div>
-            <div class='flex space-x-4 my-3'>
-              <a href='/'  target = '_blank' class=''><button class='bg-gray-800 p-2 px-4 rounded-[6px] hover:bg-slate-700 outline hover:outline-none outline-slate-700 transition delay-75 ease-in-out my-3'><i class="bi bi-github"></i> Github</button></a>
-              <a href='https://live-tools.netlify.app/' target = '_blank'><button class='bg-blue-600 p-2 px-4 rounded-[6px] hover:bg-gray-800 hover:outline hover:outline-blue-600 transition delay-75 ease-in-out my-3'>Demo <i class="bi bi-box-arrow-up-right"></i></button></a>              
+        </div>
+
+        <!-- Project 5: Mobile Apps and Backend Systems Development -->
+        <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+            <img class="post-img-url rounded-lg object-cover w-80 h-48" src="{% static 'images/recuchapp.png' %}" alt="Mobile Apps and Backend Systems Development">
+            <div>
+                <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">Mobile Apps and Backend Systems Development<p>
+                <p class='text-justify my-3'>Developed mobile apps and backend systems for OKOHI and Reçu ChapChap, optimizing user experience and backend efficiency at ANOHOU Solutions.</p>
+                <ul class='mb-3'>
+                    <li>&#9989; Developed mobile apps for OKOHI and Reçu ChapChap.</li>
+                    <li>&#9989; Optimized user experience and backend efficiency.</li>
+                    <li>&#9989; Delivered high-quality software solutions.</li>
+                </ul>
+                <span class='text-lg font-bold'>Technologies used</span><br>
+                <div class='flex space-x-2 my-3'>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-react"></i> Flutter</span>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-bolt"></i> FastAPI</span>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-node-js"></i> NodeJS</span>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-server"></i> Firebase</span>
+                    <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-docker"></i> Docker</span>
+                </div>
+                <a href="https://play.google.com/store/apps/details?id=com.anohou.okohi&pcampaignid=web_share" target="_blank" class='text-blue-500 hover:text-blue-300'>Play Store</a> |
+                <a href="https://apps.apple.com/jp/app/okohi/id1587258801?l=en-US" target="_blank" class='text-blue-500 hover:text-blue-300'>App Store</a>
             </div>
-          </div>
-      </div>
-      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
-          <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="https://cdn.jsdelivr.net/gh/hostmind/host/static/movies-web-ui.png" alt="image">
-          <div>
-            <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">Movies Web UI - Movies & Web Series UI Design</p>
-            <p class='text-justify my-3'>Movies Web UI is a movie website UI design project that was created using HTML, Tailwind CSS, and JavaScript. It features a clean and modern design with easy navigation, making it a great user experience.</p>
-            <ul class='mb-3'>
-              <li>&#9989; Modern UI</li>
-              <li>&#9989; Responsive Design</li>
-              <li>&#9989; Easy Navigation</li>
-            </ul>
-            <span class='text-lg font-bold'>Technologies used</span><br>
-            <div class='flex space-x-2 my-3'>
-            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-html5"></i> HTML</span>
-            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-css3-alt"></i> Tailwind</span>
-            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-square-js"></i> Js</span>
-            </div>
-            <div class='flex space-x-4 my-3'>
-              <a href='https://github.com/Messou-makes/movies-website-design'  target = '_blank' class=''><button class='bg-gray-800 p-2 px-4 rounded-[6px] hover:bg-slate-700 outline hover:outline-none outline-slate-700 transition delay-75 ease-in-out my-3'><i class="bi bi-github"></i> Github</button></a>
-              <a href='https://movies-web-design.netlify.app/' target = '_blank'><button class='bg-blue-600 p-2 px-4 rounded-[6px] hover:bg-gray-800 hover:outline hover:outline-blue-600 transition delay-75 ease-in-out my-3'>Demo <i class="bi bi-box-arrow-up-right"></i></button></a>              
-            </div>
-          </div>
-      </div>
-      <div class='flex justify-center'>
-        <a href='https://github.com/Messou-makes' target='_blank' class=''><button class='bg-gray-800 p-2 px-4 rounded-[6px] hover:bg-blue-600 outline hover:outline-none outline-blue-600 transition delay-75 ease-in-out my-3'>Load more <i class="bi bi-arrow-clockwise font-extrabold"></i></button></a>
-      </div>
-</div>
-      {% endblock %}
+        </div>
+    </div>
+{% endblock %}
